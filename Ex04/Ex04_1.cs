@@ -13,8 +13,10 @@ namespace Ex04
 			won = Convert.ToDouble(Console.ReadLine());
 
 			dollar = won / 1170;
-			dollar = Math.Round(dollar, 2);
-			Console.WriteLine($"--> ${dollar}");
+			string result = string.Format("{0:0.00}", dollar);
+			Console.WriteLine($"--> ${result}");
+			//dollar = Math.Round(dollar, 2);
+			//Console.WriteLine($"--> ${dollar}");
 		}
 	}
 }

@@ -6,13 +6,13 @@ namespace Ex05
 	{
 		public void PrintBitOperator()	//수정필요
 		{
-			short a = 0x55ff;
-			short b = 0x00ff;
+			short a = (short)0x55ff;
+			short b = (short)0x00ff;
 			Console.WriteLine("[Bitwise logical operation]");
-			Console.WriteLine("{0}", (short)(a & b));
-			Console.WriteLine("{0}", (short)(a | b));
-			Console.WriteLine("{0}", (short)(a ^b));
-			Console.WriteLine("{0}", (short)(~a));
+			Console.WriteLine(Convert.ToString(a & b, 16));
+			Console.WriteLine(Convert.ToString(a | b, 16));
+			Console.WriteLine(Convert.ToString(a ^ b, 16));
+			Console.WriteLine(Convert.ToString(~a, 16));
 
 			byte c = 20;
 			//byte d = -8;

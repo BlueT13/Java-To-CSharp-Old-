@@ -14,7 +14,7 @@ namespace Ex03
 			Console.WriteLine(10/4);
 			Console.WriteLine(10.0/4);
 			Console.WriteLine((char)hex); 
-			Console.WriteLine((byte)(b+i)); //수정필요
+			Console.WriteLine((sbyte)(b+i));
 			Console.WriteLine($"{(int)2.9+1.8}");
 			Console.WriteLine((int)(2.9+1.8));
 			Console.WriteLine((int)2.9+(int)1.8);

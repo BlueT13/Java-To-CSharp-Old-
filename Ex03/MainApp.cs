@@ -30,7 +30,7 @@ namespace Ex03
 			ex03_6.PrintEx03_6();
 			Console.WriteLine();
 
-			TypeConversion typeConversion = new TypeConversion(); //수정필요
+			TypeConversion typeConversion = new TypeConversion();
 			typeConversion.PrintTypeConversion();
 			Console.WriteLine();
 

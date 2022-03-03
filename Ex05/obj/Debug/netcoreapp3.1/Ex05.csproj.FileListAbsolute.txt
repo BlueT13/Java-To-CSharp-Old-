@@ -1,0 +1,14 @@
+C:\Users\yongho\Java-To-CSharp\Ex05\bin\Debug\netcoreapp3.1\Ex05.exe
+C:\Users\yongho\Java-To-CSharp\Ex05\bin\Debug\netcoreapp3.1\Ex05.deps.json
+C:\Users\yongho\Java-To-CSharp\Ex05\bin\Debug\netcoreapp3.1\Ex05.runtimeconfig.json
+C:\Users\yongho\Java-To-CSharp\Ex05\bin\Debug\netcoreapp3.1\Ex05.runtimeconfig.dev.json
+C:\Users\yongho\Java-To-CSharp\Ex05\bin\Debug\netcoreapp3.1\Ex05.dll
+C:\Users\yongho\Java-To-CSharp\Ex05\bin\Debug\netcoreapp3.1\Ex05.pdb
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.csproj.AssemblyReference.cache
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.AssemblyInfoInputs.cache
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.AssemblyInfo.cs
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.csproj.CoreCompileInputs.cache
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.dll
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.pdb
+C:\Users\yongho\Java-To-CSharp\Ex05\obj\Debug\netcoreapp3.1\Ex05.genruntimeconfig.cache
