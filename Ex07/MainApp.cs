@@ -9,6 +9,10 @@ namespace Ex07
 			ArrayLength arrayLength = new ArrayLength();
 			arrayLength.PrintArrayLength();
 			Console.WriteLine();
+
+			Foreach @foreach = new Foreach();
+			@foreach.PrintForeach();
+			Console.WriteLine();
 		}
 	}
 }
