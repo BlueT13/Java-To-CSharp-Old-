@@ -13,6 +13,11 @@ namespace Ex07
 			Foreach @foreach = new Foreach();
 			@foreach.PrintForeach();
 			Console.WriteLine();
+
+			ScoreAverage scoreAverage = new ScoreAverage();
+			scoreAverage.PrintScoreAverage();
+			Console.WriteLine();
+
 		}
 	}
 }
