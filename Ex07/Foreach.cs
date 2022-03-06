@@ -20,6 +20,10 @@ namespace Ex07
 			foreach (string s in names)
 				Console.Write(s + " ");
 			Console.WriteLine();
+
+			foreach (Week week in Enum.GetValues(typeof(Week)))
+				Console.Write(week + " ");
+			Console.WriteLine();
 		}
 	}
 }
