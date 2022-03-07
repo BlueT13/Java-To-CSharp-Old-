@@ -6,18 +6,21 @@ namespace Ex07
 	{
 		static void Main(string[] args)
 		{
-			ArrayLength arrayLength = new ArrayLength();
-			arrayLength.PrintArrayLength();
-			Console.WriteLine();
+			//ArrayLength arrayLength = new ArrayLength();
+			//arrayLength.PrintArrayLength();
+			//Console.WriteLine();
 
-			Foreach @foreach = new Foreach();
-			@foreach.PrintForeach();
-			Console.WriteLine();
+			//Foreach @foreach = new Foreach();
+			//@foreach.PrintForeach();
+			//Console.WriteLine();
 
-			ScoreAverage scoreAverage = new ScoreAverage();
-			scoreAverage.PrintScoreAverage();
-			Console.WriteLine();
+			//ScoreAverage scoreAverage = new ScoreAverage();
+			//scoreAverage.PrintScoreAverage();
+			//Console.WriteLine();
 
+			IrregularArray irregularArray = new IrregularArray();
+			irregularArray.PrintIrregularArray();
+			Console.WriteLine();
 		}
 	}
 }
