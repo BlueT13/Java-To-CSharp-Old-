@@ -18,8 +18,12 @@ namespace Ex07
 			//scoreAverage.PrintScoreAverage();
 			//Console.WriteLine();
 
-			IrregularArray irregularArray = new IrregularArray();
-			irregularArray.PrintIrregularArray();
+			//IrregularArray irregularArray = new IrregularArray();
+			//irregularArray.PrintIrregularArray();
+			//Console.WriteLine();
+
+			ReturnArray returnArray = new ReturnArray();
+			returnArray.PrintReturnArray();
 			Console.WriteLine();
 		}
 	}
