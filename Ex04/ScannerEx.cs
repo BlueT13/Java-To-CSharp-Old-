@@ -6,25 +6,16 @@ namespace Ex04
 	{
 		public void PrintScannerEx()
 		{
+			string[] token;
+
 			Console.WriteLine("Enter name, city, age, weight, marriage.");
-			string name = Console.ReadLine();
-			Console.Write($"Name: {name}", ", ");
-			Console.WriteLine();
-
-			string city = Console.ReadLine();
-			Console.Write($"City: {city}", ", ");
-			Console.WriteLine();
-
-			int age = int.Parse(Console.ReadLine());
-			Console.Write($"Age: {age}", ", ");
-			Console.WriteLine();
-
-			double weight = Convert.ToDouble(Console.ReadLine());
-			Console.Write($"Weight: {weight}", ", ");
-			Console.WriteLine();
-
-			bool marriage =Convert.ToBoolean(Console.ReadLine());
-			Console.WriteLine($"Marriage: {marriage}");
+			string inputdata = Console.ReadLine();
+			token = inputdata.Split(' ');
+			Console.Write($"Name: {token[0]}, ");
+			Console.Write($"City: {token[1]}, ");
+			Console.Write($"Age: {Convert.ToInt32(token[2])}, ");
+			Console.Write($"Weight: {Convert.ToDouble(token[3])}kg, ");
+			Console.WriteLine($"Marriage: {Convert.ToBoolean(token[4])}");
 		}
 	}
 }
