@@ -22,8 +22,12 @@ namespace Ex07
 			//irregularArray.PrintIrregularArray();
 			//Console.WriteLine();
 
-			ReturnArray returnArray = new ReturnArray();
-			returnArray.PrintReturnArray();
+			//ReturnArray returnArray = new ReturnArray();
+			//returnArray.PrintReturnArray();
+			//Console.WriteLine();
+
+			Calc calc = new Calc();
+			calc.PrintCalc(args);
 			Console.WriteLine();
 		}
 	}
