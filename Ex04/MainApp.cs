@@ -7,7 +7,7 @@ namespace Ex04
 		static void Main(string[] args)
 		{
 			ScannerEx scannerEx = new ScannerEx();
-			scannerEx.PrintScannerEx(); //과제와 출력값이 다름
+			scannerEx.PrintScannerEx();
 			Console.WriteLine("");
 
 			ArithmeticOperator arithmeticOperator = new ArithmeticOperator();
